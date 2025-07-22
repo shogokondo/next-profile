@@ -73,7 +73,7 @@ const SkillsSection = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
+        {/* <div className="mt-16 text-center">
           <Card className="max-w-4xl mx-auto p-8 bg-gradient-to-r from-primary/5 to-purple-500/5 border-primary/20">
             <div className="space-y-4">
               <h3 className="text-xl font-semibold text-foreground">
@@ -92,7 +92,7 @@ const SkillsSection = () => {
               </div>
             </div>
           </Card>
-        </div>
+        </div> */}
       </div>
     </section>
   );

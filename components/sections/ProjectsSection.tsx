@@ -11,7 +11,7 @@ const ProjectsSection = () => {
       image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "SEO"],
       githubUrl: "https://github.com",
-      liveUrl: "/lp",
+      liveUrl: "#",
       featured: true
     },
     {
@@ -20,7 +20,7 @@ const ProjectsSection = () => {
       image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       technologies: ["Next.js", "TypeScript", "Supabase", "Stripe", "Tailwind CSS"],
       githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
+      liveUrl: "#",
       featured: true
     },
     {
@@ -29,7 +29,7 @@ const ProjectsSection = () => {
       image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Express"],
       githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
+      liveUrl: "#",
       featured: true
     },
     {
@@ -38,7 +38,7 @@ const ProjectsSection = () => {
       image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       technologies: ["Vue.js", "Python", "FastAPI", "Chart.js", "PostgreSQL"],
       githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
+      liveUrl: "#",
       featured: false
     },
     {
@@ -47,7 +47,7 @@ const ProjectsSection = () => {
       image: "https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       technologies: ["Next.js", "Tailwind CSS", "Framer Motion", "MDX"],
       githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
+      liveUrl: "#",
       featured: false
     },
     {
@@ -56,7 +56,7 @@ const ProjectsSection = () => {
       image: "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       technologies: ["React", "Node.js", "Socket.io", "Redis", "JWT"],
       githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
+      liveUrl: "#",
       featured: false
     },
     {
@@ -65,7 +65,7 @@ const ProjectsSection = () => {
       image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       technologies: ["React Native", "TypeScript", "OpenWeather API", "Expo"],
       githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
+      liveUrl: "#",
       featured: false
     }
   ];

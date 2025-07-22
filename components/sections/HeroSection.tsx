@@ -24,6 +24,7 @@ const HeroSection = () => {
         {/* Centered Stars - distributed vertically */}
         {/* Large Stars */}
         <div className="absolute top-[15%] left-[20%] w-3 h-3 bg-white/80 rounded-full animate-pulse z-10" style={{animationDuration: '4.2s', animationDelay: '0.2s', animation: 'pulse 4.2s ease-in-out 0.2s infinite, float 2.5s ease-in-out infinite'}}></div>
+        <div className="absolute top-[20%] left-[30%] w-2 h-2 bg-white/80 rounded-full animate-pulse z-10" style={{animationDuration: '3.5s', animationDelay: '0.2s', animation: 'pulse 4.2s ease-in-out 0.2s infinite, float 2.5s ease-in-out infinite'}}></div>
         <div className="absolute top-[25%] left-[75%] w-2 h-2 bg-yellow-100/90 rounded-full animate-pulse z-10" style={{animationDuration: '5.8s', animationDelay: '1.8s', animation: 'pulse 5.8s ease-in-out 1.8s infinite, sway 2.1s ease-in-out infinite'}}></div>
         <div className="absolute top-[45%] left-[30%] w-3 h-3 bg-blue-100/70 rounded-full animate-pulse z-10" style={{animationDuration: '6.1s', animationDelay: '3.2s', animation: 'pulse 6.1s ease-in-out 3.2s infinite, drift 2.8s ease-in-out infinite'}}></div>
         <div className="absolute top-[65%] left-[80%] w-2 h-2 bg-white/75 rounded-full animate-pulse z-10" style={{animationDuration: '4.9s', animationDelay: '0.8s', animation: 'pulse 4.9s ease-in-out 0.8s infinite, float 2.3s ease-in-out infinite'}}></div>
@@ -172,6 +173,10 @@ const HeroSection = () => {
                   key={project.title}
                   href={project.href}
                   className="group relative bg-slate-900/60 backdrop-blur-xl border border-slate-700/40 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:border-slate-600"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToSection('projects')
+                  }}
                 >
                   <div className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-0 group-hover:opacity-100 transition-opacity duration-300`}></div>
                   <div className="relative z-10 p-3">
